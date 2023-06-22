@@ -1,0 +1,106 @@
+body { background-color: #060818; }
+.h5, h5 { font-size: 1.25rem; }
+.h4, h4 { font-size: 1.5rem; }
+.h6, h6 { font-size: 1rem; }
+
+/*
+    ======================
+        Header Wrapper
+    ======================
+*/
+#headerWrapper {
+    padding: 30px 50px;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    #headerWrapper:before {
+        background-image: none;
+    }
+}
+#headerWrapper .main-heading { color: #bfc9d4; margin: 0; }
+/*
+    ======================
+        Privacy Wrapper
+    ======================
+*/
+#privacyWrapper { padding: 80px 0; }
+#privacyWrapper .privacy-container {
+    max-width: 815px;
+    margin: 0 auto;
+}
+#privacyWrapper .privacy-container p {
+    color: #888ea8;
+}
+#privacyWrapper .privacyContent {
+    padding: 30px 30px;
+    background: #0e1726;
+    margin-top: -60px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12), 0 3px 5px -1px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12), 0 3px 5px -1px rgba(0,0,0,.2);
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12), 0 3px 5px -1px rgba(0,0,0,.2);
+}
+#privacyWrapper .privacyContent .privacy-head {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #1b2e4b;
+}
+#privacyWrapper .privacyContent .privacyHeader h1 { font-weight: 600; }
+#privacyWrapper .privacyContent .privacyHeader p {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+#privacyWrapper .privacyContent .get-privacy-terms svg { margin-right: 12px; }
+#privacyWrapper .privacy-content-container section:not(:last-child) { margin-bottom: 45px; }
+#privacyWrapper .privacy-content-container h5 { margin-bottom: 24px; }
+#privacyWrapper h5 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 1px; }
+#privacyWrapper h5.policy-info-ques { color: #bfc9d4; font-weight: 600; }
+
+/*
+    ==========================
+        Mini Footer Wrapper
+    ==========================
+*/
+
+#miniFooterWrapper {
+    color: #fff;
+    font-size: 14px;
+    border-top: solid 1px #0e1726;
+    padding: 14px;
+    -webkit-box-shadow: 0 -6px 10px 0 rgba(0,0,0,.14), 0 -1px 18px 0 rgba(0,0,0,.12), 0 -3px 5px -1px rgba(0,0,0,.2);
+    box-shadow: 0 -6px 10px 0 rgba(0,0,0,.14), 0 -1px 18px 0 rgba(0,0,0,.12), 0 -3px 5px -1px rgba(0,0,0,.2);
+}
+#miniFooterWrapper p {
+    color: #888ea8;
+}
+#miniFooterWrapper .arrow {
+    background-color: #0e1726;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: -33px;
+    width: 40px;
+    height: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+#miniFooterWrapper .arrow p {
+    align-self: center;
+    margin-bottom: 0;
+    color: #009688;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+#miniFooterWrapper .copyright a {
+    color: #009688;
+    font-weight: 700;
+    text-decoration: none;
+}

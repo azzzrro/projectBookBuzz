@@ -1,0 +1,18 @@
+.widget-content-area {
+    box-shadow: none!important;
+    border: none!important;
+    border-radius: 6px;
+}
+.dt--top-section {
+    margin: 12px 21px 20px 21px;
+}
+.toggle-list {
+    margin: 21px 21px 0 21px;
+}
+/* .toggle-list a {
+    color: #fff !important;
+    background-color: #4361ee!important;
+    border-color: #4361ee;
+    margin-bottom: 6px;
+    margin-right: 5px;
+} */
